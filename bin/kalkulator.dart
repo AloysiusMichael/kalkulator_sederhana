@@ -11,11 +11,4 @@ class kalkulator {
     return kal1 - kal2;
   }
 
-  double Kali(kal1, kal2) {
-    return kal1 * kal2;
-  }
-
-  double Bagi(kal1, kal2) {
-    return kal1 / kal2;
-  }
 }
