@@ -28,7 +28,9 @@ void main() {
         double jwb;
         a kalkulator = a(kal1, kal2);
 
-        switch (jawab3) {
+
+        switch (jawab3){
+
           case "1":
             jwb = kalkulator.Tambah(kal1, kal2);
             print("jwbnya Adalah = $jwb");
