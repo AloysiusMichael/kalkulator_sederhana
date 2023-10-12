@@ -24,6 +24,17 @@ void main() {
         stdout.write("Pilih = ");
         String? jawab3 = stdin.readLineSync();
 
+        print("");
+        double jwb;
+        a kalkulator = a(kal1, kal2);
+
+        switch (jawab3) {
+          case "1":
+            jwb = kalkulator.Tambah(kal1, kal2);
+            print("jwbnya Adalah = $jwb");
+          case "2":
+            jwb = kalkulator.Kurang(kal1, kal2);
+            print("jwbnya Adalah = $jwb");
 
       }
     }
