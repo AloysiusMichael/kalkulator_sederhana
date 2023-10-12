@@ -11,4 +11,12 @@ class kalkulator {
     return kal1 - kal2;
   }
 
+  double kali(kal1, kal2) {
+    return kal1 * kal2;
+  }
+
+  double kal1(kal1, kal2) {
+    return kal1 / kal2;
+  }
+
 }
