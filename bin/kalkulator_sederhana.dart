@@ -3,6 +3,7 @@ import 'kalkulator.dart';
 
 class a extends kalkulator{
   a(double kal1, double kal2) : super(kal1, kal2);
+  
 }
 
 void main() {
@@ -37,7 +38,13 @@ void main() {
           case "2":
             jwb = kalkulator.Kurang(kal1, kal2);
             print("jwbnya Adalah = $jwb");
-
+          case "3":
+            jwb = kalkulator.Kali(kal1, kal2);
+            print("jwbnya Adalah = $jwb");
+          case "4":
+            jwb = kalkulator.Bagi(kal1, kal2);
+            print("jwbnya Adalah = $jwb");
+        }
       }
     }
   }
