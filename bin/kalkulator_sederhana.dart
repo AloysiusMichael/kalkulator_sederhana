@@ -48,12 +48,12 @@ void main() {
       } catch (e){
         print("Hanya Bisa Menggunakan Angka Saja");
         print("");
-      };
-            
+      };           
     }
-  }stdout.write("Apakah Anda Ingin Melakukan Perhitungan Lagi ? Y/T = ");
-  String? jwb2 = stdin.readLineSync();
-  if (jwb2 = "T" || jwb2 == "t"){
-    break;
+    stdout.write("Apakah Anda Ingin Melakukan Perhitungan Lagi ? Y/T = ");
+    String? jwb2 = stdin.readLineSync();
+    if (jwb2 == "T" || jwb2 == "t"){
+      break;
+    }
   }
 }
